@@ -71,6 +71,7 @@ common_cflags = [
     "-Wno-unused-function",
     "-Wno-missing-field-initializers",
     "-Wno-missing-braces",
+    "-Wno-unused-variable",
 
     "-U_FORTIFY_SOURCE",
 ]
