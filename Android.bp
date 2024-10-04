@@ -110,7 +110,7 @@ android_common_cflags = [
 
 android_product_variables = {
     // Only enable the tcache on non-svelte configurations, to save PSS.
-    malloc_not_svelte: {
+    malloc_low_memory: {
         cflags: [
             "-DANDROID_ENABLE_TCACHE",
             "-DANDROID_LG_TCACHE_MAXCLASS_DEFAULT=16",
